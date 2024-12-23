@@ -1,0 +1,107 @@
+/* Estilos para o site de lista de presentes de casamento */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff5f8;
+    color: #333;
+}
+
+header {
+    background-color: #f28ca1;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 5px 0 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.intro h2 {
+    color: #d94e70;
+}
+
+.present-list {
+    background-color: #ffe3eb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.present-list h2 {
+    text-align: center;
+    color: #d94e70;
+    margin-bottom: 20px;
+}
+
+.present-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.present-list li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.present-list li h3 {
+    color: #d94e70;
+    margin: 0;
+}
+
+.present-list li p {
+    margin: 5px 0 0;
+    color: #555;
+}
+
+.present-list li button {
+    background-color: #f28ca1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.present-list li button:hover {
+    background-color: #d94e70;
+}
+
+footer {
+    background-color: #f28ca1;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
