@@ -1,23 +1,24 @@
-/* Estilos para o site de lista de presentes de casamento */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+IN:wght@100..400&family=Playwrite+IS:wght@100..400&family=Playwrite+VN:wght@200&display=swap');
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff5f8;
-    color: #333;
+    background-color: #3f044a; 
 }
 
 header {
-    background-color: #f28ca1;
-    color: #fff;
+    background-color: #3f044a; 
+    color: #f3e8f7;
     padding: 20px 0;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 2.8em;
     margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 header p {
@@ -29,28 +30,34 @@ header p {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+    color: #f6f6f6;
 }
 
 .intro {
-    padding: 20px 0;
+    padding: 30px 0;
     text-align: center;
+    background-color: #4a0557; 
+    border-radius: 10px;
 }
 
 .intro h2 {
-    color: #d94e70;
+    color: #f6f6f6(0 97% 3%);
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .present-list {
-    background-color: #ffe3eb;
-    padding: 20px;
+    background-color: #3f044a; 
+    padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .present-list h2 {
     text-align: center;
-    color: #d94e70;
+    color: #3f044a;
     margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .present-list ul {
@@ -59,29 +66,29 @@ header p {
 }
 
 .present-list li {
-    background-color: #fff;
+    background-color: #62028f; 
     margin: 10px 0;
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .present-list li h3 {
-    color: #d94e70;
+    color: #e3d1f4;
     margin: 0;
 }
 
 .present-list li p {
     margin: 5px 0 0;
-    color: #555;
+    color: #d1c2da;
 }
 
 .present-list li button {
-    background-color: #f28ca1;
-    color: #fff;
+    background-color: #fefefe;
+    color: #000000;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -91,17 +98,30 @@ header p {
 }
 
 .present-list li button:hover {
-    background-color: #d94e70;
+    background-color: #8b3eb4;
+    transform: scale(1.05);
 }
 
 footer {
-    background-color: #f28ca1;
-    color: #fff;
+    background-color: #4a0557;
+    color: #f3e8f7;
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
+    padding: 15px 0;
+    margin-top: 30px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
 }
 
 footer p {
     margin: 5px 0;
+}
+.apresentacao__fundo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    background-image: url('flor.png') 
+}
+.container__titulo {
+    font-family: "Playwrite VN", serif;
 }
