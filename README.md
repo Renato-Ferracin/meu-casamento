@@ -1,1 +1,1 @@
-Protótipo de lista de presete para casamento.
+Protótipo de lista de presente para casamento.
